@@ -1,0 +1,22 @@
+Installation de GIT 
+
+Créer un compte sur GitHub
+
+Création projet en local => ouvrir avec GIT BASH
+
+	- $ git init : initialiser de votre projet (on obtient le projet dit 'master')
+
+	- $ git config --global user.name 
+
+	- $ git config --global user.email 
+
+	=> aller sur GitHub  et créer un 'repository'
+
+	- $ git remote add origin https://github.com/jeanremi78/site_git.git
+
+	- $ git add --all (permet de tout selectionner)
+
+	- $ git commit -m 'première version de mon projet'
+
+ 	- $ git push -u origin master
+    	=> demande identifiant et mdp
